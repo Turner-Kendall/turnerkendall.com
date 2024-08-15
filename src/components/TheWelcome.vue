@@ -11,9 +11,8 @@ import ExperienceIcon from './icons/IconExperience.vue'
     <template #icon> <NinjaIcon /> </template>
     <template #heading>Who is (James) Turner Kendall?</template>
 
-    You might know me as <a href="https://tripkendall.com" target="_blank" rel="noopener">Trip Kendall</a>,
-    <a href="https://x.com/tr1pwyr">@tr1pwyr</a>, James, or even 
-    <a href="http://web.archive.org/web/20120212150556/http://imjtk.com/">JTk</a> .  Hey I've been around a while.  Right now
+    You might know me as <a href="https://tripkendall.com" target="_blank" rel="noopener">Trip Kendall</a>, <a href="https://x.com/tr1pwyr">@tr1pwyr</a>, James, or even 
+    <a href="http://web.archive.org/web/20120212150556/http://imjtk.com/">JTk</a>.  Hey I've been around a while.  Right now
     I am writing Rust and it is an entirely new experience. 
   </WelcomeItem>
 

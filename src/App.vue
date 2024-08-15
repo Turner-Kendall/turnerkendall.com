@@ -5,7 +5,7 @@ import HelloWorld from './components/HelloWorld.vue'
 
 <template>
   <header>
-    <img alt="Turner Kendall" class="logo" src="/logo.webp" width="240" height="240" />
+    <img alt="Turner Kendall" class="logo" src="/logo.webp" width="220" height="220" />
     <div class="wrapper">
 
       <HelloWorld />
