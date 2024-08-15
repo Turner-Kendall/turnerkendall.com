@@ -1,3 +1,26 @@
+/* @font-face {
+  font-family: 'JetBrains Mono';
+  font-style: normal;
+  font-weight: 400;
+  font-display: auto;
+  src:
+    url('~@/assets/fonts/JetBrainsMono-VariableFont_wght.ttf') format('font-truetype');
+} */
+
+@font-face {
+  font-family: 'JetBrains Mono';
+  font-style: normal;
+  src: local('JetbrainsMono'), url(/fonts/JetBrainsMono-VariableFont_wght.ttf) format('truetype');
+}
+
+/* @font-face {
+  font-family: 'Rajdhani-SemiBold';
+  font-style: normal;
+  src: local('Rajdhani-SemiBold'), url(/fonts/Rajdhani-SemiBold.ttf) format('truetype');
+} */
+
+
+
 :root {
   --vt-c-white: #ffffff;
   --vt-c-white-soft: #f8f8f8;
@@ -53,6 +76,7 @@ body {
     background-color 0.5s;
   line-height: 1.6;
   font-family:
+    'JetBrains Mono',
     Inter,
     -apple-system,
     BlinkMacSystemFont,
@@ -65,7 +89,7 @@ body {
     'Droid Sans',
     'Helvetica Neue',
     sans-serif;
-  font-size: 15px;
+  font-size: 14px;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -94,7 +118,7 @@ header {
 
 .logo {
   display: block;
-  margin: 0 auto 2rem;
+  margin: 0 auto 1rem;
 }
 
 nav {
@@ -127,7 +151,7 @@ nav a:first-of-type {
   header {
     display: flex;
     place-items: center;
-    padding-right: calc(var(--section-gap) / 2);
+    padding-right: calc(var(--section-gap) / 3);
   }
 
   .logo {

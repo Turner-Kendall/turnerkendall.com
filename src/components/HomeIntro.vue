@@ -2,9 +2,10 @@
 <template>
   <div class="right-text">
     <h1>(James) Turner Kendall</h1>
+    <div class="small-text">0xb919cBb5E449cd9Dcaf57eeE820077901BB636f4</div>
     <h3>Dev . Ops . Sec</h3>
     <a href="tel:+18502703180" data-v-06ed8c50="">1.850.270.3180</a>
-    <div class="small-text">0xb919cBb5E449cd9Dcaf57eeE820077901BB636f4</div>
+
     <div class="social-icons">
      <i>
       <a href="https://x.com/tkendall_III" class="icon-link">
@@ -33,7 +34,7 @@
 
 <style scoped>
 .right-text, .social-icons { text-align: right; line-height: 1.33;}
-.small-text{font-size: .75rem; color: #86718196; margin-top:3px;}
+.small-text{font-size: .75rem; color: #86718196; margin-top:-2px; margin-bottom:10px;}
 h1{font-size: 1.33rem; margin-bottom: 0!important; padding-bottom: 0!important;}
 h3 {font-size: 1rem; padding-left:3px; margin-top:-3px; margin-bottom:-2px;}
 
