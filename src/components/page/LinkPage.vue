@@ -1,5 +1,5 @@
 <template>
-    <main role="main" class="w-full sm:w-2/3 md:w-3/4 pr-10">
+    <main role="main" class="page-container">
       <div class="container">
         <h3>Some Links I Like:</h3>
         <p v-for="link in links" :key="link.id">
