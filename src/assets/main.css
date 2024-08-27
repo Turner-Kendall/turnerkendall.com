@@ -1,25 +1,8 @@
-/* @font-face {
-  font-family: 'JetBrains Mono';
-  font-style: normal;
-  font-weight: 400;
-  font-display: auto;
-  src:
-    url('~@/assets/fonts/JetBrainsMono-VariableFont_wght.ttf') format('font-truetype');
-} */
-
 @font-face {
   font-family: 'JetBrains Mono';
   font-style: normal;
   src: local('JetbrainsMono'), url(/fonts/JetBrainsMono-VariableFont_wght.ttf) format('truetype');
 }
-
-/* @font-face {
-  font-family: 'Rajdhani-SemiBold';
-  font-style: normal;
-  src: local('Rajdhani-SemiBold'), url(/fonts/Rajdhani-SemiBold.ttf) format('truetype');
-} */
-
-
 
 :root {
   --vt-c-white: #ffffff;
@@ -123,7 +106,7 @@ header {
 
 nav {
   width: 100%;
-  font-size: 12px;
+  /* font-size: 12px; */
   text-align: center;
   margin-top: 2rem;
   margin-bottom: 3rem;
@@ -148,6 +131,18 @@ nav a:first-of-type {
 }
 
 @media (min-width: 1024px) {
+
+  body {
+    display: flex;
+    place-items: center;
+  }
+
+  #app {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 0 2rem;
+  }
+
   header {
     display: flex;
     place-items: center;
@@ -167,23 +162,13 @@ nav a:first-of-type {
   nav {
     text-align: right;
     /* margin-left: -1rem; */
-    font-size: 1rem;
+    /* font-size: 1rem; */
     padding: 1rem 0;
     margin-top: 1rem;
   }
 
-  body {
-    display: flex;
-    place-items: center;
-  }
 
-  #app {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    padding: 0 2rem;
-  }
 }
-
 
 
 @media (hover: hover) {

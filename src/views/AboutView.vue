@@ -7,24 +7,10 @@
     </p>
     
     <p>I am proficient in Python, Javascript, and Go. I am still learning Rust but 
-      I am getting better at it every day.  </p>
-      
-    <p>
-      Thankfully I learned Go first as I struggled with pointers, interfaces, etc. but had no 
-      trouble with them in Rust as I learned the concepts well previously.  
-      Once you get past the borrow checker, thoroughly understand Option and Result, 
-      and start getting generics and traits - <a href="/page/rust">Rust</a> starts getting fun.
-    </p>
- 
-    <p>I also like Vue3, MySQL, and Pandas.  Python might be clunky but Pandas 
-      is as good of a package as I have ever used. 
-      <a target="_blank" href="https://github.com/Turner-Kendall/json_tweets">I like JSON</a> way more than is warranted and 
-      can manipulate it ways never intended. Here's a link to <a href="/page/link">some other things I like.</a>
-    </p>
+      I am getting better at it every day.  <a href="/page/more">Even More...</a> </p>
 
     <p>
-      I am always on the lookout for interesting professional opportunities.  I am  often willing 
-      to take less money to work on fun or interesting projects.  While I have been focused on the 
+      I am always on the lookout for interesting opportunities. While I have been focused on the 
       backend lately I speak html / css / js fluently. 
     </p>
 
