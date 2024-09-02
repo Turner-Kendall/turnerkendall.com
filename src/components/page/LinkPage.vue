@@ -33,13 +33,13 @@
         id: 3,
         "url": "https://www.zerotier.com/",
         "name": "ZeroTier",
-        "description": "Connect your devices on a single network you control."
+        "description": "Connect devices on a single network you control."
       },
       {
         id: 4,
         "url": "https://www.cloudflare.com/",
         "name": "Cloudflare",
-        "description": "Processesing the web's traffic (including this site)."
+        "description": "Processesing the web's traffic."
       },
       {
         id: 5,
@@ -51,7 +51,7 @@
         id: 6,
         "url": "https://www.github.com/",
         "name": "Github",
-        "description": "I've used other Git soluitions and they are fine..."
+        "description": "I've used other Git soluitions and they're fine."
       },
       {
         id: 7,

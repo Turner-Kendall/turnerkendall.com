@@ -2,6 +2,7 @@
 import { RouterView } from 'vue-router'
 import HomeIntro from './components/HomeIntro.vue'
 import MainNav from './components/MainNav.vue';
+import SubNav from './components/SubNav.vue';
 </script>
 
 <template>
@@ -13,15 +14,10 @@ import MainNav from './components/MainNav.vue';
     <div class="wrapper">
       <HomeIntro />
       <MainNav />
+      <SubNav />
     </div>
   </header>
 
   <RouterView />
 
 </template>
-
-<style>
-  .header-logo{
-    margin-left: 2rem;
-  }
-</style>

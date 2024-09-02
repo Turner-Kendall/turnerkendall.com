@@ -46,6 +46,22 @@
   padding: .33rem 1rem 3rem 1rem;
 }
 
+form{
+  font-family:
+    'JetBrains Mono',
+    Inter,
+    -apple-system,
+    BlinkMacSystemFont,
+    'Segoe UI',
+    Roboto,
+    Oxygen,
+    Ubuntu,
+    Cantarell,
+    'Fira Sans',
+    'Droid Sans',
+    'Helvetica Neue',
+    sans-serif!important;
+}
 
 .form-group-container {
   display: flex;
@@ -73,6 +89,20 @@
 
 .form-input,
 .form-textarea {
+  font-family:
+    'JetBrains Mono',
+    Inter,
+    -apple-system,
+    BlinkMacSystemFont,
+    'Segoe UI',
+    Roboto,
+    Oxygen,
+    Ubuntu,
+    Cantarell,
+    'Fira Sans',
+    'Droid Sans',
+    'Helvetica Neue',
+    sans-serif;
   padding: 0.5rem;
   border: 1px solid #ffffff18;
   background-color: rgba(0, 0, 0, 0.276);
@@ -99,21 +129,50 @@
 
 .form-textarea {
   min-height: 120px;
+  font-family:
+    'JetBrains Mono',
+    Inter,
+    -apple-system,
+    BlinkMacSystemFont,
+    'Segoe UI',
+    Roboto,
+    Oxygen,
+    Ubuntu,
+    Cantarell,
+    'Fira Sans',
+    'Droid Sans',
+    'Helvetica Neue',
+    sans-serif;
 }
 
 .form-submit {
   width: 100%;
   margin-top: 1.2rem;
-  background-color: #1d242f;
+  background-color: #181818;
+  border: 2px solid #91a7de5c;;
   color: #7c869e;
   padding: 13px 5px;
   border-radius: 0.375rem;
-  border: none!important;
+  font-family:
+    'JetBrains Mono',
+    Inter,
+    -apple-system,
+    BlinkMacSystemFont,
+    'Segoe UI',
+    Roboto,
+    Oxygen,
+    Ubuntu,
+    Cantarell,
+    'Fira Sans',
+    'Droid Sans',
+    'Helvetica Neue',
+    sans-serif;
 }
 
 .form-submit:hover {
     color: #f2f2f2;
-    background-color: #291d2f;
+    border: 2px solid #9875a995;
+    background-color: rgba(0, 0, 0, 0.276);
     cursor: pointer;
 }
 
